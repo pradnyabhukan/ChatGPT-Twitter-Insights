@@ -135,16 +135,6 @@ def get_stream():
             
             # print(tweet_dict)
             print(f"Tweet Locationt: {tweet_location}")
-            '''
-            print(f"Tweet ID: {tweet_id}")
-            print(f"Tweet Text: {tweet_text}")
-            print(f"Tweet Re-tweet count: {tweet_retweet_count}")
-            print(f"Tweet Like Count: {tweet_like_count}")
-            
-           
-            print("---------------------------------")'''
-            
-
 
 def main():
     rules = get_rules()
