@@ -15,7 +15,7 @@ db = connect.TwitterStreamData
 
 # creating or switching to twitter
 collection = db.TwitterData1
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAMPeiQEAAAAAI1VMZ0SkRjKrcVHjBLh4yeT6Vnw%3DybbO3xT5P3XEc73sAW5QnYBHzGA0Dfr8KbFkHvFOrC0JhGpHUQ"
+bearer_token = "token"
 
 
 def bearer_oauth_stream(r):
