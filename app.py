@@ -28,12 +28,6 @@ def hashtag():
 def location():
     labels = getLoc()
     values = getCount()
-
-    # if request.method == "POST":
-    #     location_name = request.form.get("lname")
-    #     count = getCountNew(location_name.lower())
-    #     labels.append(location_name)
-    #     values.append(count)
     return render_template('location.html', values=values, labels=labels)  
 
 if __name__ == '__main__':
